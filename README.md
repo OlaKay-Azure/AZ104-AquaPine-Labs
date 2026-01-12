@@ -1,206 +1,176 @@
 # AQUAPINE CONSULT - Azure Infrastructure Portfolio
 
-> **Real-world Azure Administrator labs demonstrating enterprise cloud infrastructure deployment, governance, and management.**
+![Azure](https://img.shields.io/badge/Azure-Administrator-0078D4?logo=microsoftazure)
+![Certification](https://img.shields.io/badge/AZ--104-In%20Progress-yellow)
+![GitHub](https://img.shields.io/github/last-commit/Olakay.azure/AZ104-AquaPine-Labs)
 
-[![AZ-104](https://img.shields.io/badge/AZ--104-Certified-0078D4?style=flat-square&logo=microsoft-azure)](https://learn.microsoft.com/certifications/azure-administrator/)
-[![PowerShell](https://img.shields.io/badge/PowerShell-7-5391FE?style=flat-square&logo=powershell)](https://github.com/PowerShell/PowerShell)
-[![Bicep](https://img.shields.io/badge/Bicep-IaC-0078D4?style=flat-square)](https://learn.microsoft.com/azure/azure-resource-manager/bicep/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+## 👨‍💼 About This Portfolio
 
----
+Azure Administrator infrastructure portfolio documenting the complete cloud migration journey for **AQUAPINE CONSULT** — an aquaculture farming and consulting company transitioning from zero cloud presence to fully managed Azure infrastructure.
 
-## 📋 Project Overview
-
-This repository documents my work as an **Azure Administrator** designing and deploying cloud infrastructure for **AQUAPINE CONSULT**, a multi-site aquaculture operation transitioning from on-premises to Azure cloud services.
-
-The project demonstrates real-world scenarios aligned with **Microsoft AZ-104 certification objectives**.
-
-### What's Inside:
-
-- ✅ **Identity and Governance** - Entra ID, RBAC, Azure Policy, Cost Management
-- ✅ **Storage Solutions** - Blob storage, file shares, data protection
-- ✅ **Compute Resources** - VMs, availability sets, autoscaling
-- ✅ **Virtual Networking** - VNets, VPNs, NSGs, load balancing
-- ✅ **Monitoring & Backup** - Azure Monitor, Log Analytics, Recovery Services
+**Author**: Olatunde Ogunti  
+**Role**:   Azure Administrator | Microsoft AZ-104 Certified
+**Domain Completion Window**: January - February 2026  
+**Focus**: End-to-end execution of AZ-104 domains through professional-grade labs and real-world infrastructure scenarios
 
 ---
 
-## 🏢 Business Scenario
+## 🏢 Business Context: AQUAPINE CONSULT
 
-**AQUAPINE CONSULT** operates:
+**Industry**: Aquaculture Farming & Consulting  
+**Locations**:
+- **Ibadan Operations**: 2 production farm sites (Microbiology, Fish Feed Production, Hatchery, Security, Store)
+- **Lagos Headquarters**: Administrative office (HR, IT, Sales, Logistics)
 
-### Ibadan (Production Sites - 2 Fish Farms)
-- Farm Management
-- Microbiology Department
-- Fish Feed Production
-- Hatchery Unit
-- Security
-- Store
+**Cloud Migration Drivers**:
+- Multi-site data consolidation
+- Operational efficiency (water quality tracking, inventory management)
+- Secure HR and sales data management
+- Disaster recovery and business continuity
+- Cost optimization for SME environment
 
-### Lagos (Administrative Office)
-- Human Resources
-- IT Department
-- Sales
-- Logistics
+---
 
-### Cloud Requirements
-- ✅ Secure multi-site connectivity
-- ✅ Department-based access control
-- ✅ Data protection and compliance
-- ✅ Cost-optimized infrastructure
-- ✅ Scalable and resilient architecture
+## 🎯 Portfolio Objectives
+
+This repository demonstrates:
+✅ Production-ready Azure infrastructure deployment  
+✅ Infrastructure as Code (PowerShell, Bicep, Terraform)  
+✅ Enterprise-grade security and governance  
+✅ Multi-site networking and connectivity  
+✅ Comprehensive monitoring and backup strategies  
+✅ Real-world problem-solving and decision-making  
+
+---
+
+## 📂 Repository Structure
+
+### Domain 1: Identity & Governance (25-30%)
+**Status**: 🔄 In Progress  
+**Topics**: Entra ID, RBAC, Azure Policy, Cost Management  
+- [Lab 1.1: Entra ID Setup](./01-Identity-and-Governance/Lab-1.1-Entra-ID-Setup/)
+- [Lab 1.2: RBAC Configuration](./01-Identity-and-Governance/Lab-1.2-RBAC-Configuration/)
+- [Domain 1 Capstone](./01-Identity-and-Governance/Capstone-Complete-Governance/)
+
+### Domain 2: Storage Solutions (15-20%)
+**Status**: ⏳ Upcoming  
+**Topics**: Storage Accounts, Blob Storage, Azure Files, Backup  
+- Lab 2.1: Storage Account Deployment
+- Lab 2.2: Blob Lifecycle Management
+- Domain 2 Capstone
+
+### Domain 3: Compute Resources (20-25%)
+**Status**: ⏳ Upcoming  
+**Topics**: Virtual Machines, Availability, Containers, App Service  
+- Lab 3.1: Windows VM for Microbiology Lab
+- Lab 3.2: Linux VMs for Sales Office
+- Domain 3 Capstone
+
+### Domain 4: Virtual Networking (20-25%)
+**Status**: ⏳ Upcoming  
+**Topics**: VNets, Subnets, NSGs, VPN Gateway, Load Balancer  
+- Lab 4.1: VNet Design for Multi-Site Operations
+- Lab 4.2: Site-to-Site VPN (Ibadan ↔ Lagos)
+- Domain 4 Capstone
+
+### Domain 5: Monitoring & Backup (10-15%)
+**Status**: ⏳ Upcoming  
+**Topics**: Azure Monitor, Log Analytics, Azure Backup, Site Recovery  
+- Lab 5.1: Comprehensive Monitoring Setup
+- Lab 5.2: Backup and Disaster Recovery
+- Domain 5 Capstone
 
 ---
 
 ## 🛠️ Technologies & Tools
 
-| Category | Technologies |
-|----------|-------------|
-| **Cloud Platform** | Microsoft Azure |
-| **Infrastructure as Code** | Bicep, ARM Templates |
-| **Scripting** | PowerShell 7, Azure CLI |
-| **Version Control** | Git, GitHub |
-| **Development** | VS Code, Azure Cloud Shell |
-| **Monitoring** | Azure Monitor, Log Analytics |
-| **Security** | Entra ID, Key Vault, Azure Policy, RBAC |
+**Infrastructure as Code**:
+- PowerShell 7 (Primary automation)
+- Azure CLI (Alternative scripting)
+- Bicep (Azure-native IaC)
+- Terraform (Multi-cloud IaC)
+
+**Development Environment**:
+- Visual Studio Code
+- Git & GitHub
+- Azure Cloud Shell
+- Azure Storage Explorer
+
+**Azure Services Deployed**:
+- Microsoft Entra ID (Azure AD)
+- Azure Storage (Blob, Files)
+- Azure Virtual Machines
+- Azure Virtual Networks
+- Azure Monitor & Log Analytics
+- Azure Backup & Site Recovery
 
 ---
 
-## 📂 Repository Structure
+## 📚 Key Documentation
+
+- [Architecture Overview](./docs/architecture-overview.md)
+- [Deployment Guide](./docs/deployment-guide.md)
+- [Troubleshooting Guide](./docs/troubleshooting.md)
+- [Interview Talking Points](./docs/interview-talking-points.md)
+- [Cost Analysis](./docs/cost-analysis.md)
+
+---
+
+## 🎓 Learning Journey
+
+**Study Resources**:
+- Microsoft Learn (Official AZ-104 Path)
+- O'Reilly Platform (Azure Administrator courses)
+- Hands-on labs in Azure for Students subscription
+
+**Study Commitment**: 50-55 hours/week  
+**Timeline**: 7-8 weeks intensive track  
+**Target Exam Date**: February 20, 2026
+
+---
+
+## 🏆 Certifications & Skills
+
+**Certification**:
+- [ ] Microsoft Certified: Azure Administrator Associate (AZ-104)
+
+**Skills Demonstrated**:
+- Azure Identity & Access Management
+- Cloud Governance & Compliance
+- Storage Architecture & Security
+- Virtual Machine Management
+- Network Design & Security
+- Infrastructure as Code
+- Monitoring & Alerting
+- Disaster Recovery Planning
+
+---
+
+## 📞 Connect With Me
+
+**LinkedIn**: [www.linkedin.com/in/olatunde-ogunti-22383b194]  
+**GitHub**: [@Olakay.azure](https://github.com/Olakay.azure)  
+**Email**: ola_ogunti@outlook.com
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+---
+
+## ⭐ Acknowledgments
+
+- Microsoft Learn for comprehensive AZ-104 learning path
+- O'Reilly Platform for in-depth Azure courses
+- Azure community for support and guidance
+- AQUAPINE CONSULT scenario for real-world context
+
+---
+
+**Last Updated**: January 12, 2026  
+**Portfolio Version**: 1.0  
+**Next Milestone**: Domain 1 Capstone (Week 2)
 ```
-AZ104-AquaPine-Labs/
-├── 01-Identity-and-Governance/      # Entra ID, RBAC, Azure Policy
-├── 02-Storage-Solutions/            # Storage accounts, data protection
-├── 03-Compute-Resources/            # VMs, scaling, availability
-├── 04-Virtual-Networking/           # VNets, VPN, security groups
-├── 05-Monitoring-and-Backup/        # Azure Monitor, backup strategies
-├── Architecture-Diagrams/           # Visual infrastructure designs
-├── Scripts/                         # Reusable automation scripts
-└── Documentation/                   # Guides and best practices
-```
 
-Each lab includes:
-- 📖 **README** with business context and objectives
-- 💻 **Scripts** (PowerShell/CLI) for deployment
-- 📋 **Templates** (Bicep/ARM) for infrastructure as code
-- ✅ **Validation** steps and expected outputs
-- 🎯 **AZ-104 exam relevance** notes
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Azure subscription (Free tier or Azure for Students)
-- PowerShell 7+
-- Azure CLI
-- VS Code
-- Git
-
-### Quick Start
-
-1. **Clone the repository**
-```bash
-   git clone https://github.com/OlaKay-azure/AZ104-AquaPine-Labs.git
-   cd AZ104-AquaPine-Labs
-```
-
-2. **Connect to Azure**
-```powershell
-   Connect-AzAccount
-```
-
-3. **Navigate to a lab and follow the README**
-```bash
-   cd 01-Identity-and-Governance/Lab-1.1-Environment-Setup
-   Each lab contains detailed instructions, scripts, and validation steps.
-```
-
----
-
-## 📚 Learning Path
-
-| Domain | Status | Key Topics |
-|--------|--------|------------|
-| **1. Identity & Governance** | 🚧 In Progress | Entra ID, RBAC, Policies |
-| **2. Storage Solutions** | 📅 Planned | Blob, Files, Backup |
-| **3. Compute Resources** | 📅 Planned | VMs, Containers, App Services |
-| **4. Virtual Networking** | 📅 Planned | VNets, VPN, Load Balancers |
-| **5. Monitoring & Backup** | 📅 Planned | Azure Monitor, Disaster Recovery |
-
----
-
-## 🎯 Key Achievements
-
-- ✅ Designed multi-site identity architecture with department-based RBAC
-- ✅ Implemented Azure Policy for governance and compliance
-- ✅ Automated infrastructure deployment using Bicep templates
-- ✅ Established cost management and budget alerts
-- ✅ Documented all deployments with enterprise-grade READMEs
-
----
-
-## 🎯 Skills Demonstrated
-
-### Azure Administration
-- Identity and access management (Entra ID)
-- Role-based access control (RBAC)
-- Resource organization and governance
-- Cost management and optimization
-- Policy enforcement and compliance
-
-### Infrastructure as Code
-- Bicep template development
-- ARM template deployment
-- Parameterized, reusable templates
-- Version-controlled infrastructure
-
-### Automation & Scripting
-- PowerShell automation
-- Azure CLI scripting
-- Deployment automation
-- Operational runbooks
-
-### Documentation
-- Technical writing
-- Architecture diagrams
-- Deployment guides
-- Troubleshooting documentation
-
----
-
-## 🏆 Certifications
-
-**Microsoft Certified: Azure Administrator Associate (AZ-104)**  
-Issued: October, 2024
-
----
-
-## 📞 +2348169283961
-
-**Olatunde Ogunti**  
-Azure Administrator | Cloud Infrastructure Specialist  
-
-📧 Email: ola_ogunti@outlook.com  
-💼 LinkedIn: [www.linkedin.com/in/olatunde-ogunti-22383b194]  
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- Microsoft Learn documentation
-- Azure community contributions
-- Real-world enterprise architecture patterns
-
----
-
-*Built with ☁️ by an Azure Administrator passionate about cloud infrastructure*
-
-**Last Updated:** January 2026
-```
