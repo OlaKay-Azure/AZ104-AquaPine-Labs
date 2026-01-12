@@ -1,164 +1,174 @@
 # AQUAPINE CONSULT - Azure Infrastructure Portfolio
 
-> **Real-world Azure Administrator portfolio demonstrating end-to-end cloud infrastructure management for a multi-site aquaculture business.**
+![Azure](https://img.shields.io/badge/Azure-Administrator-0078D4?logo=microsoftazure)
+![Certification](https://img.shields.io/badge/AZ--104-In%20Progress-yellow)
+![GitHub](https://img.shields.io/github/last-commit/Olakay.azure/AZ104-AquaPine-Labs)
 
-[![Azure](https://img.shields.io/badge/Azure-Administrator-0078D4?logo=microsoft-azure)](https://azure.microsoft.com)
-[![PowerShell](https://img.shields.io/badge/PowerShell-7.x-5391FE?logo=powershell)](https://github.com/PowerShell/PowerShell)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+## 👨‍💼 About This Portfolio
 
----
+Azure Administrator infrastructure portfolio documenting the complete cloud migration journey for **AQUAPINE CONSULT** — an aquaculture farming and consulting company transitioning from zero cloud presence to fully managed Azure infrastructure.
 
-## 📋 Project Overview
-
-This repository contains **production-ready Azure infrastructure code and documentation** created as part of my **Microsoft AZ-104 (Azure Administrator)** certification journey and hands-on cloud operations experience.
-
-### Business Scenario
-
-**AQUAPINE CONSULT** is an aquaculture farming and consulting business with:
-- **2 production sites** (Ibadan, Nigeria) - Fish farms with microbiology labs, hatcheries, feed production
-- **1 administrative office** (Lagos, Nigeria) - HR, IT, Sales, Logistics departments
-- **Operational requirements**: Water quality monitoring, inventory management, secure HR data, sales analytics
-
-**My Role**: Azure Administrator responsible for designing, deploying, and managing the complete Azure infrastructure from scratch.
+**Author**: Olatunde Ogunti  
+**Role**: Azure Administrator  
+**Timeline**: January - February 2026  
+**Certification Goal**: Microsoft Azure Administrator (AZ-104)
 
 ---
 
-## 🎯 Learning Objectives & Skills Demonstrated
+## 🏢 Business Context: AQUAPINE CONSULT
 
-### AZ-104 Domains Covered
+**Industry**: Aquaculture Farming & Consulting  
+**Locations**:
+- **Ibadan Operations**: 2 production farm sites (Microbiology, Fish Feed Production, Hatchery, Security, Store)
+- **Lagos Headquarters**: Administrative office (HR, IT, Sales, Logistics)
 
-| Domain | Topics | Status |
-|--------|--------|--------|
-| **Identity & Governance** | Entra ID, RBAC, Azure Policy, Resource Groups | 🚧 In Progress |
-| **Storage Solutions** | Blob Storage, File Shares, Lifecycle Management | 📅 Planned |
-| **Compute Resources** | Virtual Machines, Availability Sets, Scale Sets | 📅 Planned |
-| **Virtual Networking** | VNets, NSGs, VPN Gateway, Load Balancers | 📅 Planned |
-| **Monitoring & Backup** | Azure Monitor, Log Analytics, Backup Vaults | 📅 Planned |
-
-### Technical Skills
-
-- **Infrastructure as Code**: ARM Templates, Bicep, Terraform
-- **Automation**: PowerShell 7, Azure CLI
-- **Identity Management**: Microsoft Entra ID, RBAC, Conditional Access
-- **Security**: Network Security Groups, Azure Policy, Key Vault
-- **Monitoring**: Azure Monitor, Log Analytics Workspaces
-- **Version Control**: Git, GitHub
+**Cloud Migration Drivers**:
+- Multi-site data consolidation
+- Operational efficiency (water quality tracking, inventory management)
+- Secure HR and sales data management
+- Disaster recovery and business continuity
+- Cost optimization for SME environment
 
 ---
 
-## 🏗️ Architecture Highlights
+## 🎯 Portfolio Objectives
 
-**Multi-Site Design**
-- Primary Region: West Africa (data residency compliance)
-- Department-based resource segregation
-- Role-based access control for farm vs. office users
-
-**Security-First Approach**
-- Least privilege access (RBAC)
-- Network segmentation with NSGs
-- Encrypted storage and secrets management
-- Comprehensive audit logging
-
-**Cost Optimization**
-- Resource tagging for cost allocation
-- Auto-shutdown policies for non-production resources
-- Right-sized compute instances
+This repository demonstrates:
+✅ Production-ready Azure infrastructure deployment  
+✅ Infrastructure as Code (PowerShell, Bicep, Terraform)  
+✅ Enterprise-grade security and governance  
+✅ Multi-site networking and connectivity  
+✅ Comprehensive monitoring and backup strategies  
+✅ Real-world problem-solving and decision-making  
 
 ---
 
-## 📁 Repository Structure
-```
-AZ104-AquaPine-Labs/
-│
-├── 01-Identity-and-Governance/    # Domain 1 labs and scripts
-├── 02-Storage-Solutions/          # Domain 2 labs and scripts
-├── 03-Compute-Resources/          # Domain 3 labs and scripts
-├── 04-Virtual-Networking/         # Domain 4 labs and scripts
-├── 05-Monitoring-and-Backup/      # Domain 5 labs and scripts
-├── docs/                          # Architecture docs, guides
-├── learning-journal/              # Weekly progress notes
-└── README.md                      # This file
-```
+## 📂 Repository Structure
 
-Each domain folder contains:
-- **scripts/**: PowerShell and Azure CLI automation
-- **bicep/** or **terraform/**: Infrastructure as Code templates
-- **documentation/**: Lab notes, architecture decisions
-- **screenshots/**: Validation and deployment evidence
+### Domain 1: Identity & Governance (25-30%)
+**Status**: 🔄 In Progress  
+**Topics**: Entra ID, RBAC, Azure Policy, Cost Management  
+- [Lab 1.1: Entra ID Setup](./01-Identity-and-Governance/Lab-1.1-Entra-ID-Setup/)
+- [Lab 1.2: RBAC Configuration](./01-Identity-and-Governance/Lab-1.2-RBAC-Configuration/)
+- [Domain 1 Capstone](./01-Identity-and-Governance/Capstone-Complete-Governance/)
+
+### Domain 2: Storage Solutions (15-20%)
+**Status**: ⏳ Upcoming  
+**Topics**: Storage Accounts, Blob Storage, Azure Files, Backup  
+- Lab 2.1: Storage Account Deployment
+- Lab 2.2: Blob Lifecycle Management
+- Domain 2 Capstone
+
+### Domain 3: Compute Resources (20-25%)
+**Status**: ⏳ Upcoming  
+**Topics**: Virtual Machines, Availability, Containers, App Service  
+- Lab 3.1: Windows VM for Microbiology Lab
+- Lab 3.2: Linux VMs for Sales Office
+- Domain 3 Capstone
+
+### Domain 4: Virtual Networking (20-25%)
+**Status**: ⏳ Upcoming  
+**Topics**: VNets, Subnets, NSGs, VPN Gateway, Load Balancer  
+- Lab 4.1: VNet Design for Multi-Site Operations
+- Lab 4.2: Site-to-Site VPN (Ibadan ↔ Lagos)
+- Domain 4 Capstone
+
+### Domain 5: Monitoring & Backup (10-15%)
+**Status**: ⏳ Upcoming  
+**Topics**: Azure Monitor, Log Analytics, Azure Backup, Site Recovery  
+- Lab 5.1: Comprehensive Monitoring Setup
+- Lab 5.2: Backup and Disaster Recovery
+- Domain 5 Capstone
 
 ---
 
-## 🚀 Quick Start
+## 🛠️ Technologies & Tools
 
-### Prerequisites
-- Azure subscription (Azure for Students or Free Tier)
-- PowerShell 7+
-- Azure CLI 2.50+
+**Infrastructure as Code**:
+- PowerShell 7 (Primary automation)
+- Azure CLI (Alternative scripting)
+- Bicep (Azure-native IaC)
+- Terraform (Multi-cloud IaC)
+
+**Development Environment**:
 - Visual Studio Code
-- Git
+- Git & GitHub
+- Azure Cloud Shell
+- Azure Storage Explorer
 
-### Deployment
-```powershell
-# Clone repository
-git clone https://github.com/Olakay.azure/AZ104-AquaPine-Labs.git
-cd AZ104-AquaPine-Labs
-
-# Navigate to specific domain
-cd 01-Identity-and-Governance/scripts
-
-# Connect to Azure
-Connect-AzAccount
-
-# Run deployment script
-./01-entra-id-setup.ps1
-```
-
-See individual domain READMEs for detailed instructions.
+**Azure Services Deployed**:
+- Microsoft Entra ID (Azure AD)
+- Azure Storage (Blob, Files)
+- Azure Virtual Machines
+- Azure Virtual Networks
+- Azure Monitor & Log Analytics
+- Azure Backup & Site Recovery
 
 ---
 
-## 📊 Project Outcomes
+## 📚 Key Documentation
 
-✅ **Production-Ready Infrastructure**: All code tested and validated  
-✅ **Comprehensive Documentation**: Architecture decisions, deployment guides, troubleshooting  
-✅ **Automation-First**: Repeatable, scriptable deployments  
-✅ **Real-World Scenarios**: Actual business requirements, not abstract demos  
-✅ **Security & Compliance**: RBAC, encryption, audit logging  
-
----
-
-## 🎓 Certifications & Learning
-
-- **Microsoft Certified: Azure Administrator Associate (AZ-104)** - In Progress
-- **Study Resources**: Microsoft Learn, O'Reilly Platform
-- **Expected Completion**: [Month Year]
+- [Architecture Overview](./docs/architecture-overview.md)
+- [Deployment Guide](./docs/deployment-guide.md)
+- [Troubleshooting Guide](./docs/troubleshooting.md)
+- [Interview Talking Points](./docs/interview-talking-points.md)
+- [Cost Analysis](./docs/cost-analysis.md)
 
 ---
 
-## 🤝 Connect With Me
+## 🎓 Learning Journey
 
-- **GitHub**: [@Olakay.azure](https://github.com/Olakay.azure)
-- **LinkedIn**: www.linkedin.com/in/olatunde-ogunti-22383b194
-- **Location**: Lagos, Nigeria
+**Study Resources**:
+- Microsoft Learn (Official AZ-104 Path)
+- O'Reilly Platform (Azure Administrator courses)
+- Hands-on labs in Azure for Students subscription
+
+**Study Commitment**: 50-55 hours/week  
+**Timeline**: 7-8 weeks intensive track  
+**Target Exam Date**: February 20, 2026
+
+---
+
+## 🏆 Certifications & Skills
+
+**In Progress**:
+- [ ] Microsoft Certified: Azure Administrator Associate (AZ-104)
+
+**Skills Demonstrated**:
+- Azure Identity & Access Management
+- Cloud Governance & Compliance
+- Storage Architecture & Security
+- Virtual Machine Management
+- Network Design & Security
+- Infrastructure as Code
+- Monitoring & Alerting
+- Disaster Recovery Planning
+
+---
+
+## 📞 Connect With Me
+
+**LinkedIn**: [Your LinkedIn URL]  
+**GitHub**: [@Olakay.azure](https://github.com/Olakay.azure)  
+**Email**: olatunde.ogunti@example.com *(update with real email)*
 
 ---
 
 ## 📝 License
 
-This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## ⭐ Acknowledgments
 
-- Microsoft Learn AZ-104 Learning Path
-- Azure documentation and best practices
-- Real-world operational experience at AQUAPINE CONSULT
-
----
-
-**⭐ If you find this repository helpful, please consider giving it a star!**
+- Microsoft Learn for comprehensive AZ-104 learning path
+- O'Reilly Platform for in-depth Azure courses
+- Azure community for support and guidance
+- AQUAPINE CONSULT scenario for real-world context
 
 ---
 
-**Last Updated**: January 12, 2026
+**Last Updated**: January 12, 2026  
+**Portfolio Version**: 1.0  
+**Next Milestone**: Domain 1 Capstone (Week 2)
