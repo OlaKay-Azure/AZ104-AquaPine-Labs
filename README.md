@@ -148,9 +148,9 @@ This repository demonstrates:
 
 ## 📞 Connect With Me
 
-**LinkedIn**: [Your LinkedIn URL]  
+**LinkedIn**: www.linkedin.com/in/olatunde-ogunti-22383b194  
 **GitHub**: [@Olakay.azure](https://github.com/Olakay.azure)  
-**Email**: olatunde.ogunti@example.com *(update with real email)*
+**Email**: ola_ogunti@outlook.com
 
 ---
 
