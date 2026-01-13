@@ -1,219 +1,162 @@
-$mondayTemplate = @"
-# Week 1, Monday - January 12, 2026
+# Week 1 - Monday - [Date]
 
-## 📚 Study Session Summary
+## 📚 Study Session
 
-**Total Duration**: [Fill at end of day] hours  
-**Study Quality**: [1-10 rating]  
-**Energy Level**: [High/Medium/Low]
+**Duration**: [X hours]
 
----
-
-## 📖 Resources Used
-
-### Microsoft Learn
-- [ ] Module: [Module name]
-  - Progress: [X%]
-  - Knowledge Check Score: [X/Y]
-  - Time Spent: [X hours]
-
-- [ ] Module: [Module name]
-  - Progress: [X%]
-  - Knowledge Check Score: [X/Y]
-  - Time Spent: [X hours]
-
-### O'Reilly Platform
-- [ ] Video Course: [Course name]
-  - Chapter: [Chapter name]
-  - Timestamp: [Start - End]
-  - Time Spent: [X hours]
-
-### Azure Documentation
-- Article: [Title and URL]
-- Article: [Title and URL]
-
-### Other Resources
-- [Blog posts, community articles, etc.]
+**Resources Used**:
+- [ ] Microsoft Learn: [Module name]
+- [ ] O'Reilly: [Video chapter - e.g., "Identity Management Ch. 1"]
+- [ ] Azure Docs: [Specific articles]
 
 ---
 
-## 🎯 Topics Covered Today
+## 🎯 Topics Covered
 
-### 1. [Primary Topic - e.g., Microsoft Entra ID Fundamentals]
+### 1. **[Topic 1 - e.g., "Microsoft Entra ID Overview"]**
+**Key Concept**: [Brief explanation in your own words]
 
-**Key Concepts Learned**:
-- **What it is**: [Technical definition]
-- **Why it matters**: [Business value]
-- **AQUAPINE Context**: [How this applies to AQUAPINE CONSULT]
-- **Exam Relevance**: [Why this is tested on AZ-104]
+**AQUAPINE Context**: [How does AQUAPINE CONSULT need this?]
 
-**Important Facts**:
-- [Fact 1 - memorize this]
-- [Fact 2 - exam-critical]
-- [Fact 3 - common mistake to avoid]
-
-**PowerShell Cmdlets**:
-\`\`\`powershell
-# Cmdlet 1
-Get-AzADUser -UserId "user@aquapine.com"
-
-# Cmdlet 2
-New-AzRoleAssignment -SignInName "user@aquapine.com" -RoleDefinitionName "Contributor"
-\`\`\`
+**Exam Relevance**: [Why does AZ-104 test this?]
 
 ---
 
-### 2. [Secondary Topic]
+### 2. **[Topic 2]**
+**Key Concept**: 
 
-**Key Concepts Learned**:
-- 
-- 
+**AQUAPINE Context**: 
 
-**Important Facts**:
-- 
-- 
+**Exam Relevance**: 
 
 ---
 
-### 3. [Additional Topic if applicable]
+### 3. **[Topic 3]**
+**Key Concept**: 
+
+**AQUAPINE Context**: 
+
+**Exam Relevance**: 
 
 ---
 
-## 💡 Key Takeaways & "Aha!" Moments
+## 💡 Key Takeaways
 
-1. **[Biggest insight of the day]**
-   - Why this matters: 
-   - How I'll apply it: 
+**Top 3 Insights from Today**:
+1. [Most important thing you learned]
+2. [Biggest "aha!" moment]
+3. [Connection you made between concepts]
 
-2. **[Second major insight]**
-   - Why this matters: 
-   - How I'll apply it: 
-
-3. **[Third insight]**
-   - Why this matters: 
-   - How I'll apply it: 
+**How This Applies to AQUAPINE**:
+[2-3 sentences connecting today's learning to the business scenario]
 
 ---
 
-## 🧠 Flashcards Created Today
+## ❓ Questions & Confusion
 
-| Term/Cmdlet | Definition/Usage | Exam Relevance |
-|-------------|------------------|----------------|
-| Microsoft Entra ID | Azure's cloud-based identity and access management service | High - 25-30% of exam |
-| Get-AzADUser | Retrieves Azure AD user information | Medium |
-| [Add more] | | |
+**Concepts I Don't Fully Understand**:
+- [ ] [Question 1]
+- [ ] [Question 2]
+- [ ] [Question 3]
 
-**Total Flashcards**: [X]  
-**Review Schedule**: Tomorrow morning
+**Need Clarification On**:
+- [ ] [Specific topic that confused me]
 
----
+**Want to Explore Deeper**:
+- [ ] [Topic that interested me]
 
-## ❓ Questions & Confusion Points
-
-### Questions for Instructor (Claude)
-
-- [ ] **Q1**: [Specific technical question]
-  - Context: [Why you're asking]
-  - What you've tried: [Your research attempts]
-
-- [ ] **Q2**: [Another question]
-
-- [ ] **Q3**: [Another question]
-
-### Concepts I Need to Review
-- [ ] [Topic that's still unclear]
-- [ ] [Concept to revisit tomorrow]
+**Action Plan**:
+- [ ] Will ask instructor (Claude) about [topic]
+- [ ] Will re-watch O'Reilly section on [topic]
+- [ ] Will practice hands-on in Friday lab
 
 ---
 
-## 🔗 AQUAPINE Business Context
+## 🧠 Flashcards Created
 
-**Today's Scenario Application**:
+| Front (Term/Question) | Back (Definition/Answer) |
+|----------------------|--------------------------|
+| Microsoft Entra ID | [Your definition] |
+| [PowerShell Cmdlet] | [What it does + syntax] |
+| [Azure Term] | [Your explanation] |
 
-*"As the Azure Administrator for AQUAPINE CONSULT, how does today's learning help solve real business problems?"*
+**Total Flashcards Today**: [X]
 
-**Example**:
-- **Problem**: Farm managers in Ibadan need access to operational data, but HR wants to restrict access to payroll information
-- **Solution**: Use Microsoft Entra ID groups with RBAC to implement least-privilege access
-- **Benefit**: Security + operational efficiency
-
-**My Implementation Plan**:
-- [How I'll apply this in Lab 1.1]
+**Review Method**: [Anki / Notion / Physical cards / Markdown file]
 
 ---
 
-## 📊 Progress Tracking
+## 📊 Progress Metrics
 
-### Microsoft Learn Progress
-- Module 1: [X%] ✅
-- Module 2: [X%] 🔄
-- Module 3: [X%] ⏳
-- **Overall Domain 1 Progress**: [X%]
+**Study Time**:
+- Microsoft Learn: [X minutes]
+- O'Reilly: [X minutes]
+- Note-taking: [X minutes]
+- **Total**: [X hours X minutes]
 
-### O'Reilly Progress
-- Chapter 1: ✅ Complete
-- Chapter 2: 🔄 In Progress
-- Chapter 3: ⏳ Not Started
+**Completion**:
+- Microsoft Learn Progress: [Started at X%, now at Y%]
+- O'Reilly Progress: [Chapter X of Y completed]
+- Knowledge Check Score: [X/Y correct]
 
-### Today's Study Hours Breakdown
-| Activity | Time Spent | Notes |
-|----------|------------|-------|
-| Microsoft Learn | [X hrs] | Modules 1-2 |
-| O'Reilly Videos | [X hrs] | Chapters 1-2 |
-| Note-taking | [X hrs] | Created flashcards |
-| Research | [X hrs] | Azure docs deep dive |
-| **Total** | **[X hrs]** | **Target: 8-9 hrs** |
+**Self-Assessment**:
+- **Confidence Level** (1-10): [X]
+- **Energy Level** (1-10): [X]
+- **Focus Quality** (1-10): [X]
 
----
-
-## ✅ Accomplishments Today
-
-- ✅ [Specific accomplishment 1]
-- ✅ [Specific accomplishment 2]
-- ✅ [Specific accomplishment 3]
-
-**Confidence Level**: [1-10] in today's material
+**Notes on Study Session**:
+[Was it productive? Any distractions? What worked well?]
 
 ---
 
-## 🎯 Tomorrow's Plan (Tuesday)
+## ✅ Action Items for Tomorrow (Tuesday)
 
-### Study Goals
-1. [Specific Microsoft Learn modules]
-2. [Specific O'Reilly chapters]
-3. [Begin initial PowerShell scripting]
+**Priority Topics to Cover**:
+1. [Topic 1 - build on today's foundation]
+2. [Topic 2]
+3. [Topic 3]
 
-### Questions to Address
-- [Question from today to follow up on]
-- [Concept to explore deeper]
+**Preparation Needed**:
+- [ ] Review today's notes before starting
+- [ ] Prepare questions for instructor
+- [ ] Bookmark Microsoft Learn Module X
+- [ ] Queue up O'Reilly Chapter Y
 
-### Time Allocation
-- Morning (4 hrs): [Activity]
-- Afternoon (4-5 hrs): [Activity]
-
----
-
-## 🤔 Personal Reflection
-
-**What went well today?**
-- 
-
-**What could I improve tomorrow?**
-- 
-
-**How am I feeling about the pace?**
-- [On track / Ahead / Behind / Overwhelmed / Confident]
-
-**Motivation level**: [1-10]
+**Personal Reminder**:
+[Anything you want to remember for tomorrow's session]
 
 ---
 
-**End of Day Status**: ✅ Day 1 Complete  
-**Tomorrow's Focus**: Continue Microsoft Entra ID deep dive + initial scripting  
-**Weekly Progress**: 12.5% (1/8 days)
+## 💭 Personal Reflections
+
+**What Went Well Today**:
+- [Something that was easy to understand]
+- [Study technique that worked]
+- [Win or achievement]
+
+**What Was Challenging**:
+- [Difficult concept]
+- [Time management issue]
+- [Distraction or obstacle]
+
+**How I'll Improve Tomorrow**:
+- [Specific adjustment]
+- [Different approach to try]
+- [Better study environment]
 
 ---
 
-*"Every day I'm building toward becoming an Azure Administrator. Small progress compounds into mastery."* 💪
-"@
+## 🏆 Today's Win
 
+**One Thing I'm Proud Of**: [Even small wins count!]
+
+---
+
+**Study Date**: [Full date - e.g., January 14, 2026]  
+**Day of Week**: Monday (Theory Day 1)  
+**Week**: 1 of 16  
+**Next Study Session**: Tuesday, [Date] - Theory Day 2
+
+---
+
+**Quote**: *"The secret of getting ahead is getting started." - Mark Twain*

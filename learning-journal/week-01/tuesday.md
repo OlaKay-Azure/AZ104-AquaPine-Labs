@@ -1,69 +1,79 @@
- Tuesday Template
-$tuesdayTemplate = @"
-# Week 1, Tuesday - January 13, 2026
+# Week 1 - Tuesday - [Date]
 
-## 📚 Study Session Summary
-**Total Duration**: [X] hours  
-**Study Quality**: [1-10]
+## 📚 Study Session
 
-## 📖 Resources Used
-### Microsoft Learn
-- [ ] Module: 
-  - Progress: [X%]
+**Duration**: [X hours]
 
-### O'Reilly Platform
-- [ ] Chapter: 
+**Resources**:
+- [ ] Microsoft Learn: [Module]
+- [ ] O'Reilly: [Chapter]
 
-## 🎯 Topics Covered Today
+---
 
-### 1. [Primary Topic]
-**Key Concepts**:
-- 
+## 🎯 Topics Covered
 
-**PowerShell Cmdlets**:
-\`\`\`powershell
+### 1. **[Topic 1]**
+**Key Concept**: 
 
-\`\`\`
+**AQUAPINE Context**: 
+
+---
+
+### 2. **[Topic 2]**
+**Key Concept**: 
+
+**AQUAPINE Context**: 
+
+---
 
 ## 💡 Key Takeaways
-1. 
-2. 
+
+1. [Main insight]
+2. [Connection to Monday's learning]
+3. [New understanding]
+
+---
 
 ## 🧠 Flashcards Created
+
 | Term | Definition |
 |------|------------|
-|      |            |
+|  |  |
 
-## ❓ Questions for Instructor
-- [ ] Q1: 
-- [ ] Q2: 
+**Total Today**: [X] | **Total This Week**: [X]
 
-## 🔧 Initial Scripting Progress
-**Scripts Started**:
-- [ ] 01-create-users.ps1
-- [ ] 02-create-groups.ps1
+---
 
-**Code Snippets**:
-\`\`\`powershell
-# Today's script work
+## ❓ Questions
 
-\`\`\`
+- [ ] [Question 1]
 
-## 📊 Progress Tracking
+---
+
+## 📊 Progress
+
+**Duration**: [X hours]  
 **Microsoft Learn**: [X%]  
-**O'Reilly**: [X%]  
-**Today's Hours**: [X/9]
+**O'Reilly**: [Chapter X]  
+**Confidence**: [X/10]
 
-## ✅ Accomplishments
-- ✅ 
-- ✅ 
+---
 
-## 🎯 Tomorrow's Plan
-1. Complete Wednesday theory
-2. Finalize lab preparation
+## ✅ Tomorrow's Plan
 
-**Confidence Level**: [1-10]  
-**Status**: Day 2 Complete ✅
-"@
+1. [Priority topic 1]
+2. [Priority topic 2]
 
-$tuesdayTemplate | Out-File -FilePath "learning-journal/week-01/tuesday.md" -Encoding utf8
+---
+
+## 💭 Reflection
+
+**What Went Well**: 
+
+**Challenge**: 
+
+**Improvement for Tomorrow**: 
+
+---
+
+**Date**: [Full Date] | Tuesday (Theory Day 2) | Week 1 of 16

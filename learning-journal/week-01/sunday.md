@@ -1,57 +1,157 @@
-$sundayTemplate = @"
-# Week 1, Sunday - January 18, 2026
+# Week 1 - Sunday - [Date]
 
-## 🔄 REFLECTION & PLANNING DAY
+## 📝 DOCUMENTATION & PUBLISHING DAY
 
-**Focus**: Week review + Week 2 preparation  
-**Duration**: [X] hours
+**Lab**: [Lab name]
 
-## 📊 Week 1 Final Statistics
+---
 
-**Study Hours**:
-- Monday: [X] hrs
-- Tuesday: [X] hrs
-- Wednesday: [X] hrs
-- Thursday: [X] hrs
-- Friday: [X] hrs
-- Saturday: [X] hrs
-- Sunday: [X] hrs
-- **Total**: [X/55] hours
+## ⏰ Morning Session (2-3 hours): Technical Documentation
 
-**Domains Completed**: 
-- Domain 1: [X%]
+**Time**: 09:00 - 12:00
 
-**Labs Deployed**: 3/3 ✅
+### Documentation Created
 
-## 💡 Week 1 Key Learnings
-1. **Technical**:
-2. **Process**:
-3. **Personal**:
+- [ ] Domain README.md - ✅ Complete
+- [ ] Lab-specific documentation - ✅ Complete
+- [ ] Architecture diagram - ✅ Complete / ⏭️ Skipped
+- [ ] Deployment guide - ✅ Complete
+- [ ] Troubleshooting notes - ✅ Complete
 
-## 🎯 Week 2 Preview
-**Focus**: Domain 1 completion + Capstone  
-**Microsoft Learn**: [Modules planned]  
-**Labs**: Governance, Policy, Capstone
+**README Quality Check**:
+- [ ] Business problem clearly stated
+- [ ] Architecture decisions explained
+- [ ] Deployment steps documented
+- [ ] Validation commands included
+- [ ] Interview talking points added
 
-## 💼 LinkedIn Activity
-- [ ] Weekly post published ✅
-- [ ] Engagement count: [X reactions, X comments]
+---
 
-## 🎓 Self-Assessment
-**Confidence by Topic**:
-- Entra ID: [1-10]
-- RBAC: [1-10]
-- Azure Policy: [1-10]
+## ⏰ Afternoon Session (2-3 hours): GitHub Publishing
 
-**Overall Week 1 Rating**: [1-10]
+**Time**: 13:00 - 16:00
 
-## 🎯 Week 2 Goals
-1. [Specific goal 1]
-2. [Specific goal 2]
-3. [Specific goal 3]
+### Files Organized
+```
+01-Identity-and-Governance/
+├── scripts/
+│   └── 01-[script-name].ps1 ✅
+├── documentation/
+│   └── lab-1.1-notes.md ✅
+├── screenshots/
+│   └── [validation-screenshot].png ✅
+└── README.md ✅
+```
 
-**Status**: Week 1 COMPLETE! 🎉  
-**Readiness for Week 2**: [High/Medium/Low]
-"@
+### Git Workflow
+```bash
+# Stage all changes
+git add .
 
-$sundayTemplate | Out-File -FilePath "learning-journal/week-01/sunday.md" -Encoding utf8
+# Review what's being committed
+git status
+
+# Commit with professional message
+git commit -m "feat: implement Entra ID structure for AQUAPINE departments
+
+- Created 6 security groups aligned to business roles
+- Deployed user provisioning automation
+- Configured RBAC for farm managers and office staff
+- Added comprehensive documentation and validation screenshots"
+
+# Push to GitHub
+git push origin main
+```
+
+**Commit Hash**: [Paste here after pushing]
+
+---
+
+## ⏰ Evening Session (1 hour): Professional Development
+
+**Time**: 18:00 - 19:00
+
+### LinkedIn Post (Optional)
+
+**Draft**:
+```
+🎯 Week 1 Complete: AZ-104 Domain 1 - Identity & Governance
+
+Designed and deployed identity structure for AQUAPINE CONSULT's multi-site aquaculture operations.
+
+🔧 Tech Stack: Microsoft Entra ID, PowerShell, Azure CLI
+💼 Business Value: Secure access control for 6 departments across Ibadan farms and Lagos office
+📚 Key Learning: [One technical insight]
+
+GitHub: [Link to your repo]
+
+#Azure #CloudComputing #AZ104 #DevOps #LearningInPublic
+```
+
+- [ ] Posted to LinkedIn: Yes / No (optional)
+
+### Interview Talking Points Updated
+
+**New Story Added** (`docs/interview-talking-points.md`):
+```
+"At AQUAPINE CONSULT, I designed the identity foundation using Microsoft Entra ID.
+I created [X] security groups aligned to their departments, automated user provisioning
+with PowerShell, and implemented RBAC to ensure farm managers had appropriate access
+while maintaining security. This eliminated shared credentials and created a full audit trail."
+```
+
+- [ ] Interview talking points document updated
+
+---
+
+## 📊 Week 1 Summary
+
+### Time Investment
+
+| Activity | Hours |
+|----------|-------|
+| Mon-Thu Theory | [X] |
+| Friday Prep | [X] |
+| Saturday Labs | [X] |
+| Sunday Docs | [X] |
+| **Total** | **[X]** |
+
+### Deliverables Completed
+
+- [ ] Lab deployed and validated
+- [ ] GitHub repository updated
+- [ ] Documentation professional quality
+- [ ] Learning journal filled out
+- [ ] Weekly reflection complete
+
+### Technical Skills Gained
+
+**Azure Services**:
+- [Service 1]: [What you learned]
+- [Service 2]: [What you learned]
+
+**PowerShell/CLI**:
+- [Cmdlet 1]: [What it does]
+- [Cmdlet 2]: [What it does]
+
+---
+
+## ✅ Ready for Week 2
+
+- [ ] Week 1 labs complete
+- [ ] GitHub up to date
+- [ ] Questions answered
+- [ ] Next week's topics reviewed
+- [ ] Study materials prepared for Monday
+
+**Confidence Level**: [X/10]
+
+---
+
+**Date**: [Full Date] | Sunday (Documentation) | Week 1 of 16
+
+**Week 1 Status**: ✅ COMPLETE! 🎉
+
+---
+
+**Next Session**: Monday, [Date] - Week 2, Domain 1 (continued)

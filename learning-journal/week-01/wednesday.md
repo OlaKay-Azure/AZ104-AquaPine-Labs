@@ -1,48 +1,52 @@
-# Wednesday Template
-$wednesdayTemplate = @"
-# Week 1, Wednesday - January 14, 2026
+# Week 1 - Wednesday - [Date]
 
-## 📚 Study Session Summary
-**Total Duration**: [X] hours
+## 📚 Study Session
+**Duration**: [X hours]
 
-## 📖 Resources Completed
-- [ ] Final Microsoft Learn modules
-- [ ] Final O'Reilly chapters
+**Resources**:
+- [ ] Microsoft Learn: [Module - aim to finish this week's modules]
+- [ ] O'Reilly: [Chapter]
 
-## 🎯 Domain Completion Status
-**Microsoft Learn Domain 1**: [X%]  
-**O'Reilly Identity Section**: [Complete/In Progress]
+## 🎯 Topics Covered
+### 1. **[Topic 1]**
+**Key Concept**: 
 
-## 🔧 Lab Preparation
-### Environment Setup Checklist
-- [ ] Azure Portal logged in
-- [ ] Resource group created
-- [ ] Naming conventions defined
-- [ ] PowerShell scripts ready
-- [ ] VS Code workspace configured
+**AQUAPINE Context**: 
 
-### Scripts Finalized
-- [ ] 01-create-users.ps1 - Error handling added ✅
-- [ ] 02-create-groups.ps1 - Validation logic added ✅
+### 2. **[Topic 2]**
+**Key Concept**: 
 
-## 💡 Key Insights
+**AQUAPINE Context**: 
+
+## 💡 Key Takeaways
 1. 
 2. 
+3. 
 
-## ❓ Final Questions Before Lab
-- [ ] Q1: 
-- [ ] Q2: 
+## 🧠 Flashcards
+| Term | Definition |
+|------|------------|
+|  |  |
 
-## 🎯 Thursday Lab Plan
-**Lab 1.1 Objectives**:
-1. Deploy Entra ID structure
-2. Create 10+ users
-3. Configure RBAC
+**Total This Week**: [X]
 
-**Expected Duration**: 5-6 hours
+## ❓ Questions for Thursday Review
+- [ ] 
 
-**Confidence Level**: [1-10]  
-**Status**: Ready for implementation! 🚀
-"@
+## 📊 Progress
+**Duration**: [X hrs] | **Microsoft Learn**: [X%] | **Confidence**: [X/10]
 
-$wednesdayTemplate | Out-File -FilePath "learning-journal/week-01/wednesday.md" -Encoding utf8
+## ✅ Tomorrow (Thursday - Review Day)
+**Topics to Review**:
+1. [Topic from Monday to revisit]
+2. [Topic from Tuesday to revisit]
+3. [Prepare lab questions]
+
+## 💭 Reflection
+**What Went Well**: 
+
+**Challenge**: 
+
+---
+
+**Date**: [Full Date] | Wednesday (Theory Day 3) | Week 1 of 16
