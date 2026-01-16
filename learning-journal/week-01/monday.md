@@ -1,162 +1,49 @@
-# Week 1 - Monday - [Date]
+# Week 1, Day 1 - Microsoft Entra ID Fundamentals
 
-## 📚 Study Session
+## Key Concepts Learned
 
-**Duration**: [X hours]
+### 1. Entra ID vs. Windows Server AD
+**Main Difference**: [Main Difference:
+Microsoft Entra ID is a Microsoft-managed, cloud-based identity and access management service, while Active Directory Domain Services (AD DS) is an on-premises directory service that runs on Windows Server domain controllers.
 
-**Resources Used**:
-- [ ] Microsoft Learn: [Module name]
-- [ ] O'Reilly: [Video chapter - e.g., "Identity Management Ch. 1"]
-- [ ] Azure Docs: [Specific articles]
+Entra ID is used to manage identities for Azure, Microsoft 365, and SaaS applications, and it supports modern authentication methods such as Multi-Factor Authentication (MFA), Conditional Access, passwordless sign-in, and protocols like SAML, OAuth 2.0, OpenID Connect, and WS-Federation. Entra ID is internet-facing and communicates primarily over HTTPS (port 443).
 
----
+AD DS, on the other hand, is designed for on-premises environments, managing domain-joined computers, file shares, printers, and legacy applications within a local network.]
+**AQUAPINE Impact**: [For AQUAPINE Consult, Entra ID provides a centralized and scalable identity management system for its approximately 45 employees across Lagos and Ibadan. It enables role-based access control (RBAC), Conditional Access, and Multi-Factor Authentication to ensure employees only access resources required for their job roles.
 
-## 🎯 Topics Covered
+Entra ID also supports Single Sign-On (SSO) across company applications, improves security visibility through sign-in logs and audit trails, and helps AQUAPINE meet compliance and data protection requirements while reducing IT administrative overhead]
 
-### 1. **[Topic 1 - e.g., "Microsoft Entra ID Overview"]**
-**Key Concept**: [Brief explanation in your own words]
+### 2. Tenant Hierarchy
+**What is a tenant?**: [A tenant is a dedicated Microsoft Entra ID instance that acts as an organization’s identity boundary. It stores all Entra ID objects such as users, groups, devices, and application registrations.
+]
+**AQUAPINE Tenant Name**: aquapineconsult.onmicrosoft.com
+**Why this structure matters**: [The tenant defines the security, identity, and access boundary for AQUAPINE. All authentication, authorization, and policy enforcement occur within this tenant, making it critical for access control, auditing, and governance.]
 
-**AQUAPINE Context**: [How does AQUAPINE CONSULT need this?]
+### 3. User Types
+**Cloud-Only Users**: [Users created directly in Entra ID with no on-premises dependency. Example: IT administrators or office staff created directly in the cloud.]
+**Synchronized Users**: [Users that originate from an on-premises Active Directory and are synchronized to Entra ID using Azure AD Connect. This would apply if AQUAPINE later deploys on-premises infrastructure.]
+**Guest Users**: [External users invited into the tenant for collaboration, such as vendors or consultants, with limited access permissions.]
 
-**Exam Relevance**: [Why does AZ-104 test this?]
+### 4. Groups
+**Security Groups**: [Used to assign permissions to Azure resources and applications efficiently.]
+**Microsoft 365 Groups**: [Used for collaboration services such as Outlook, Microsoft Teams, and SharePoint]
+**AQUAPINE Group Strategy**: [Ibadan-Farm-Operations, Ibadan-Microbiology-Lab, Lagos-HR-Department, Lagos-IT-Admin. This structure supports role-based access control and operational separation between departments and locations.]
 
----
+## Business Context Questions
 
-### 2. **[Topic 2]**
-**Key Concept**: 
+1. Why can't AQUAPINE just use personal email accounts?
+   [Personal email accounts introduce significant security risks, including lack of centralized access control, no enforced MFA or Conditional Access, no auditing capability, and difficulty revoking access when employees leave the company.]
 
-**AQUAPINE Context**: 
+2. How does Entra ID help with the Ibadan-Lagos separation?
+   [Entra ID enables logical separation using groups, administrative units, and role-based access, allowing each location to be managed independently while remaining under one centralized identity system.]
 
-**Exam Relevance**: 
+3. What happens if a microbiologist leaves the company?
+   [If Entra ID is implemented, the IT administrator can immediately disable or delete the user account and remove the user from all groups, instantly revoking access to all company systems. This enforces proper identity lifecycle management.
 
----
+Without Entra ID, access removal would be inconsistent, delayed, or incomplete, creating a security risk.]
 
-### 3. **[Topic 3]**
-**Key Concept**: 
+## Questions for Instructor
+- [ ] [Question 1]: I would like a deeper explanation of Microsoft Entra Domain Services, including when and why an organization should use it.
 
-**AQUAPINE Context**: 
+- [ ] [Question 2]: I want to clearly understand Shared Mailboxes, Microsoft Teams channels, and SharePoint sites, including their purpose and how AQUAPINE would use them operationally.
 
-**Exam Relevance**: 
-
----
-
-## 💡 Key Takeaways
-
-**Top 3 Insights from Today**:
-1. [Most important thing you learned]
-2. [Biggest "aha!" moment]
-3. [Connection you made between concepts]
-
-**How This Applies to AQUAPINE**:
-[2-3 sentences connecting today's learning to the business scenario]
-
----
-
-## ❓ Questions & Confusion
-
-**Concepts I Don't Fully Understand**:
-- [ ] [Question 1]
-- [ ] [Question 2]
-- [ ] [Question 3]
-
-**Need Clarification On**:
-- [ ] [Specific topic that confused me]
-
-**Want to Explore Deeper**:
-- [ ] [Topic that interested me]
-
-**Action Plan**:
-- [ ] Will ask instructor (Claude) about [topic]
-- [ ] Will re-watch O'Reilly section on [topic]
-- [ ] Will practice hands-on in Friday lab
-
----
-
-## 🧠 Flashcards Created
-
-| Front (Term/Question) | Back (Definition/Answer) |
-|----------------------|--------------------------|
-| Microsoft Entra ID | [Your definition] |
-| [PowerShell Cmdlet] | [What it does + syntax] |
-| [Azure Term] | [Your explanation] |
-
-**Total Flashcards Today**: [X]
-
-**Review Method**: [Anki / Notion / Physical cards / Markdown file]
-
----
-
-## 📊 Progress Metrics
-
-**Study Time**:
-- Microsoft Learn: [X minutes]
-- O'Reilly: [X minutes]
-- Note-taking: [X minutes]
-- **Total**: [X hours X minutes]
-
-**Completion**:
-- Microsoft Learn Progress: [Started at X%, now at Y%]
-- O'Reilly Progress: [Chapter X of Y completed]
-- Knowledge Check Score: [X/Y correct]
-
-**Self-Assessment**:
-- **Confidence Level** (1-10): [X]
-- **Energy Level** (1-10): [X]
-- **Focus Quality** (1-10): [X]
-
-**Notes on Study Session**:
-[Was it productive? Any distractions? What worked well?]
-
----
-
-## ✅ Action Items for Tomorrow (Tuesday)
-
-**Priority Topics to Cover**:
-1. [Topic 1 - build on today's foundation]
-2. [Topic 2]
-3. [Topic 3]
-
-**Preparation Needed**:
-- [ ] Review today's notes before starting
-- [ ] Prepare questions for instructor
-- [ ] Bookmark Microsoft Learn Module X
-- [ ] Queue up O'Reilly Chapter Y
-
-**Personal Reminder**:
-[Anything you want to remember for tomorrow's session]
-
----
-
-## 💭 Personal Reflections
-
-**What Went Well Today**:
-- [Something that was easy to understand]
-- [Study technique that worked]
-- [Win or achievement]
-
-**What Was Challenging**:
-- [Difficult concept]
-- [Time management issue]
-- [Distraction or obstacle]
-
-**How I'll Improve Tomorrow**:
-- [Specific adjustment]
-- [Different approach to try]
-- [Better study environment]
-
----
-
-## 🏆 Today's Win
-
-**One Thing I'm Proud Of**: [Even small wins count!]
-
----
-
-**Study Date**: [Full date - e.g., January 14, 2026]  
-**Day of Week**: Monday (Theory Day 1)  
-**Week**: 1 of 16  
-**Next Study Session**: Tuesday, [Date] - Theory Day 2
-
----
-
-**Quote**: *"The secret of getting ahead is getting started." - Mark Twain*
